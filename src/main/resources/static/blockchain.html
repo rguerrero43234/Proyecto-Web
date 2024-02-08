@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Tecnologías</title>
+        <meta charset="UTF-8">
+        <link href="css/css.css" rel="stylesheet" type="text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header class="site-header">
+            <nav class="navigation">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="ia.html" class="nav-link">Aprende sobre IA</a>
+                <a href="realidadvirtual.html" class="nav-link">Realidad Virtual</a>
+                <a href="iot.html" class="nav-link">Aprende sobre IoT</a>
+                <a href="blockchain.html" class="nav-link active">Blockchain</a>
+                <a href="computacion.html" class="nav-link">Computación</a>
+                <a href="robotica.html" class="nav-link">Robótica</a>
+                <a href="contacto.html" class="nav-link">Contacto</a>
+            </nav>
+        </header>
+        <section class="blockchain-section">
+            <h1 class="section-title">El futuro del dinero: Blockchain y Criptomonedas</h1>
+            <p class="section-description">La tecnología blockchain funciona como un registro descentralizado y distribuido que registra de manera segura transacciones y activos mediante bloques encadenados criptográficamente. Cada bloque contiene un conjunto de transacciones y un hash que lo conecta al bloque anterior, creando así una cadena inmutable. La descentralización impide la manipulación de datos, ya que cualquier cambio en un bloque afectaría a toda la cadena, requiriendo el consenso de la red. La criptografía garantiza la seguridad y la privacidad de las transacciones, y la descentralización elimina la necesidad de intermediarios, proporcionando transparencia y confianza en el intercambio de información y activos.</p>
+            <p class="section-description">El uso de la tecnología blockchain se ha extendido más allá del ámbito financiero, encontrando aplicaciones en diversas industrias. En el ámbito de la cadena de suministro, por ejemplo, la blockchain se utiliza para rastrear y verificar la procedencia de productos, asegurando la autenticidad y la calidad a lo largo de toda la cadena. En el sector de la salud, la blockchain se emplea para gestionar registros médicos de manera segura y compartir información entre diferentes partes de manera eficiente y sin comprometer la privacidad del paciente. Además, en la gestión de derechos de autor y propiedad intelectual, la blockchain ofrece una solución transparente y segura para registrar y proteger la propiedad de contenidos digitales, transformando la forma en que se gestionan los derechos y las transacciones fuera del ámbito financiero.</p>
+
+            <article class="crypto-video">
+                <figure>
+                    <video width="320" height="240" controls>
+                        <source src="videos/criptomoneda.mp4" type="video/mp4">
+                    </video>
+                    <figcaption>¿Cómo funciona la criptomoneda?</figcaption>
+                </figure>
+            </article>
+            <form action="/enviar_opiniones" method="post" class="opinion-form">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br>
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required><br>
+
+                <label for="opinion">Opinión sobre el futuro de las criptomonedas:</label>
+                <textarea id="opinion" name="opinion" required></textarea><br>
+
+                <input type="submit" value="Enviar opinión" class="submit-button">
+            </form>
+        </section>
+
+    </body>
+</html>

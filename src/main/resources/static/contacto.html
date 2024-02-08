@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Tecnologías</title>
+        <meta charset="UTF-8">
+        <link href="css/css.css" rel="stylesheet" type="text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header class="site-header">
+            <nav class="navigation">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="ia.html" class="nav-link">Aprende sobre IA</a>
+                <a href="realidadvirtual.html" class="nav-link">Realidad Virtual</a>
+                <a href="iot.html" class="nav-link">Aprende sobre IoT</a>
+                <a href="blockchain.html" class="nav-link">Blockchain</a>
+                <a href="computacion.html" class="nav-link">Computación</a>
+                <a href="robotica.html" class="nav-link">Robótica</a>
+                <a href="contacto.html" class="nav-link active">Contacto</a>
+            </nav>
+        </header>
+        <section class="contact-section">
+            <h1 class="section-title">¿Tienes dudas? No dudes en escribirnos</h1>
+            <form action="/enviar_consulta" method="post" class="contact-form">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br>
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required><br>
+
+                <label for="consulta">Consulta o comentario:</label>
+                <textarea id="consulta" name="consulta" required></textarea><br>
+
+                <input type="submit" value="Enviar consulta" class="submit-button">
+            </form>
+
+            <div class="informacion-contacto">
+                <p>Para más información, síguenos en nuestras redes sociales:</p>
+                <ul class="redes-sociales">
+                    <li><a href="#" target="_blank">Facebook</a></li>
+                    <li><a href="#" target="_blank">Twitter</a></li>
+                    <li><a href="#" target="_blank">Instagram</a></li>
+                </ul>
+
+                <p>O contáctanos por correo electrónico:</p>
+                <p>info@example.com</p>
+            </div>
+
+            <div class="boletin-noticias">
+                <h2 class="section-title">Boletín de Noticias sobre Tecnología</h2>
+
+                <div class="noticia-card">
+                    <h3>Avances en Inteligencia Artificial</h3>
+                    <p>Descubre cómo la inteligencia artificial está revolucionando diversas industrias.</p>
+                    <a href="#">Leer más</a>
+                </div>
+
+                <div class="noticia-card">
+                    <h3>Nuevas Tendencias en Ciberseguridad</h3>
+                    <p>Conoce las últimas tendencias y desafíos en el ámbito de la ciberseguridad.</p>
+                    <a href="#">Leer más</a>
+                </div>
+
+                <div class="noticia-card">
+                    <h3>Desarrollos en Realidad Virtual</h3>
+                    <p>Explora los avances más recientes en la tecnología de realidad virtual y sus aplicaciones.</p>
+                    <a href="#">Leer más</a>
+                </div>
+
+                <div class="noticia-card">
+                    <h3>Innovaciones en Robótica</h3>
+                    <p>Descubre las últimas innovaciones y aplicaciones en el campo de la robótica.</p>
+                    <a href="#">Leer más</a>
+                </div>
+            </div>
+        </section>
+
+
+    </body>
+</html>
